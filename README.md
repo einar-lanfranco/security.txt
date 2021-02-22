@@ -3,7 +3,7 @@ Security.txt es un estándar propuesto [(ver Draft IETF)](https://tools.ietf.org
 
 [Consideraciones sobre el contenido]  
 El archivo security.txt contiene una serie de campos a completar, algunos son de carácter obligatorio y otros opcionales.
-> • contact:  
+> • Contact:  
 > • Encryption:  
 > •	Acknowledgments:  
 > •	Canonical:  
@@ -19,3 +19,7 @@ Preferred-Languages: es, en
 ```
 [Algunas consideraciones respecto a su uso]  
 El archivo security.txt debe ser en texto plano y presentarse a través de HTTPS en una ubicación determinada.
+
+[Referencias]  
+• Sitio web del proyecto:  [https://securitytxt.org/](https://securitytxt.org/)
+• Draft en IETF:  [https://tools.ietf.org/html/draft-foudil-securitytxt-10](https://tools.ietf.org/html/draft-foudil-securitytxt-10)
