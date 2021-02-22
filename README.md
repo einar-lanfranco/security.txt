@@ -21,5 +21,5 @@ Preferred-Languages: es, en
 El archivo security.txt debe ser en texto plano y presentarse a través de HTTPS en una ubicación determinada.
 
 [Referencias]  
-• Sitio web del proyecto:  [https://securitytxt.org/](https://securitytxt.org/)
+• Sitio web del proyecto:  [https://securitytxt.org/](https://securitytxt.org/)  
 • Draft en IETF:  [https://tools.ietf.org/html/draft-foudil-securitytxt-10](https://tools.ietf.org/html/draft-foudil-securitytxt-10)
