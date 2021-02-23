@@ -1,9 +1,9 @@
 # security.txt
 Security.txt es un estándar propuesto [(ver Draft IETF)](https://tools.ietf.org/html/draft-foudil-securitytxt-10) que brinda a las organizaciones que publican servicios web definir políticas de seguridad. La implementación del archivo security.txt permite dar a conocer las pautas y canales de comunicación ante el hallazgo de vulnerabilidades.
-
-
+  
+  
 **[Consideraciones sobre el contenido]**  
-
+  
 El archivo security.txt contiene una serie de campos a completar, algunos son de carácter obligatorio y otros opcionales.
 > • *Contact*:  Campo de carácter requerido, se indica cual será el canal de contacto a utilizar para comunicarse con la organización. Se sugiere indicar una dirección de correo del área de seguridad de la información.  
 > 
@@ -18,10 +18,10 @@ El archivo security.txt contiene una serie de campos a completar, algunos son de
 > •	*Policy*: (Opcional). Este campo permite especificar un enlace donde se encuentra la política de seguridad sobre la divulgación de vulnerabilidades de la organización.  
 > 
 > •	*Hiring*: (Opcional). Se puede utilizar este campo para indicar, a través de un enlace, posiciones de trabajo de la organización relacionadas con seguridad.  
-
-
+  
+  
 **[Ejemplo]**
-
+  
 ```
 Contact: mailto:cert@icic.gob.ar
 Encryption: https://github.com/cert-ar/PGP-Key/blob/main/CERT-AR-PGP-2021.asc
@@ -29,18 +29,19 @@ Preferred-Languages: es, en
 Canonical: https://github.com/cert-ar/security.txt/blob/main/security.txt
 ```
 Puede descargar nuestro ejemplo [Aquí](https://github.com/cert-ar/security.txt/blob/main/security.txt)
-
-
+  
+  
 
 **[Algunas consideraciones respecto a su uso]**  
 
 El archivo security.txt debe ser en texto plano y presentarse a través de HTTPS en una ubicación determinada.  
-> •	Sitios web: El archivo security.txt debe colocarse en la ruta /.well-know/security.txt
+•	Sitios web: El archivo security.txt debe colocarse en la ruta /.well-know/security.txt
 > En caso de no ser posible utilizar el directorio /.well-know/ se recomienda utilizar la raíz del directorio como ubicación del archivo.  
-> •	Repositorios: El archivo debe ubicarse en la raíz del repositorio.  
+> 
+•	Repositorios: El archivo debe ubicarse en la raíz del repositorio.  
 Cuando en uno de los campos se indica una URL, el enlace deber comenzar con *https://*  
-
-
+  
+  
 **[Importante]**
 
 La presencia del archivo *security.txt* **no** debe ser considerada como un permiso para la ejecución de pruebas o análisis.
