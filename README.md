@@ -1,10 +1,10 @@
-# security.txt
-Security.txt es un estándar propuesto [(ver Draft IETF)](https://tools.ietf.org/html/draft-foudil-securitytxt-10) que brinda a las organizaciones que publican servicios web definir políticas de seguridad. La implementación del archivo security.txt permite dar a conocer las pautas y canales de comunicación ante el hallazgo de vulnerabilidades.
+# Security.txt
+*Security.txt* es un estándar propuesto [(ver Draft IETF)](https://tools.ietf.org/html/draft-foudil-securitytxt-10) que brinda a las organizaciones que publican servicios web definir políticas de seguridad. El estándar define la implementación de un archivo de texto, *security.txt*, cuyo contenido permite dar a conocer las pautas y canales de comunicación ante el hallazgo de vulnerabilidades.  
   
   
 **[Consideraciones sobre el contenido]**  
   
-El archivo security.txt contiene una serie de campos a completar, algunos son de carácter obligatorio y otros opcionales.
+El archivo *security.txt* contiene una serie de campos a completar, algunos son de carácter obligatorio y otros opcionales.
 > • *Contact*:  Campo de carácter requerido, se indica cual será el canal de contacto a utilizar para comunicarse con la organización. Se sugiere indicar una dirección de correo del área de seguridad de la información.  
 > 
 > • *Encryption*: (Opcional). Se utiliza para indicar que se encuentra disponible la clave PGP para entablar comunicaciones cifradas. Las claves NO deben aparecer en este campo sino que se indicará la ubicación donde se puede recuperar la clave.  
@@ -34,7 +34,7 @@ Puede descargar nuestro ejemplo [Aquí](https://github.com/cert-ar/security.txt/
 
 **[Algunas consideraciones respecto a su uso]**  
 
-El archivo security.txt debe ser en texto plano y presentarse a través de HTTPS en una ubicación determinada.  
+El archivo *security.txt* debe ser en texto plano y presentarse a través de HTTPS en una ubicación determinada.  
 •	Sitios web: El archivo security.txt debe colocarse en la ruta /.well-know/security.txt
 > En caso de no ser posible utilizar el directorio /.well-know/ se recomienda utilizar la raíz del directorio como ubicación del archivo.  
 > 
