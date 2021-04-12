@@ -39,8 +39,8 @@ Puede descargar nuestro ejemplo [Aquí](https://github.com/cert-ar/security.txt/
 **[Algunas consideraciones respecto a su uso]**  
 
 El archivo *security.txt* debe ser en texto plano y presentarse a través de HTTPS en una ubicación determinada.  
-•	Sitios web: El archivo security.txt debe colocarse en la ruta /.well-know/security.txt
-> En caso de no ser posible utilizar el directorio /.well-know/ se recomienda utilizar la raíz del directorio como ubicación del archivo.  
+•	Sitios web: El archivo security.txt debe colocarse en la ruta /.well-known/security.txt
+> En caso de no ser posible utilizar el directorio /.well-known/ se recomienda utilizar la raíz del directorio como ubicación del archivo.  
 > 
 •	Repositorios: El archivo debe ubicarse en la raíz del repositorio.  
 Cuando en uno de los campos se indica una URL, el enlace deber comenzar con *https://*  
