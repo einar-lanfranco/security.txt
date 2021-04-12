@@ -5,7 +5,7 @@
 **[Consideraciones sobre el contenido]**  
   
 El archivo *security.txt* contiene una serie de campos a completar, algunos son de carácter obligatorio y otros opcionales.
-> • *Contact*:  Campo de carácter requerido, se indica cual será el canal de contacto a utilizar para comunicarse con la organización. Se sugiere indicar una dirección de correo del área de seguridad de la información. Si se indica una URL, el enlace deber comenzar con *https://* y *mailto:* para correos.  
+> • *Contact*:  Campo de carácter requerido, se indica cual será el canal de contacto a utilizar para comunicarse con la organización. Se sugiere indicar una dirección de correo del área de seguridad de la información. Si se indica una URL, el enlace deber comenzar con *https://* y *mailto:* para cuentas de correo.  
 > 
 > • *Expires*:  Campo de carácter requerido, se indica la fecha de caducidad del archivo, permite que el mismo sea sometido a revisión y actualización.  
 > El formato empleado es *day-of-week, DD MM YYYY hh:mm zone*  
