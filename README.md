@@ -1,11 +1,13 @@
 # Security.txt
-*Security.txt* es un estándar propuesto [(ver Draft IETF)](https://tools.ietf.org/html/draft-foudil-securitytxt-10) que brinda a las organizaciones que publican servicios web definir políticas de seguridad. El estándar define la implementación de un archivo de texto, *security.txt*, cuyo contenido permite dar a conocer las pautas y canales de comunicación ante el hallazgo de vulnerabilidades.  
+*Security.txt* es un estándar propuesto [(ver Draft IETF)](https://tools.ietf.org/html/draft-foudil-securitytxt-11) que brinda a las organizaciones que publican servicios web definir políticas de seguridad. El estándar define la implementación de un archivo de texto, *security.txt*, cuyo contenido permite dar a conocer las pautas y canales de comunicación ante el hallazgo de vulnerabilidades.  
   
   
 **[Consideraciones sobre el contenido]**  
   
 El archivo *security.txt* contiene una serie de campos a completar, algunos son de carácter obligatorio y otros opcionales.
 > • *Contact*:  Campo de carácter requerido, se indica cual será el canal de contacto a utilizar para comunicarse con la organización. Se sugiere indicar una dirección de correo del área de seguridad de la información.  
+> 
+> • *Expires*:  Campo de carácter requerido, se indica la fecha de caducidad del archivo, permite que el mismo sea sometido a revisión y actualización.  
 > 
 > • *Encryption*: (Opcional). Se utiliza para indicar que se encuentra disponible la clave PGP para entablar comunicaciones cifradas. Las claves NO deben aparecer en este campo sino que se indicará la ubicación donde se puede recuperar la clave.  
 > 
@@ -24,6 +26,7 @@ El archivo *security.txt* contiene una serie de campos a completar, algunos son 
   
 ```
 Contact: mailto:cert@icic.gob.ar
+Expires: Fri, 31 Dec 2021 23:00 -0300
 Encryption: https://github.com/cert-ar/PGP-Key/blob/main/CERT-AR-PGP-2021.asc
 Preferred-Languages: es, en
 Canonical: https://github.com/cert-ar/security.txt/blob/main/security.txt
@@ -45,10 +48,10 @@ Cuando en uno de los campos se indica una URL, el enlace deber comenzar con *htt
 **[Importante]**
 
 La presencia del archivo *security.txt* **no** debe ser considerada como un permiso para la ejecución de pruebas o análisis.
-Se sugiere revisar la correcta utilización del campo *Policy* y la divulgación de vulnerabilidades, puede leer más en el apartado [3.5.7](https://tools.ietf.org/html/draft-foudil-securitytxt-10#section-3.5.7); y en particular el apartado [6.5](https://tools.ietf.org/html/draft-foudil-securitytxt-10#section-6.5) del estándar.
+Se sugiere revisar la correcta utilización del campo *Policy* y la divulgación de vulnerabilidades, puede leer más en el apartado [3.5.7](https://tools.ietf.org/html/draft-foudil-securitytxt-11#section-3.5.7); y en particular el apartado [6.5](https://tools.ietf.org/html/draft-foudil-securitytxt-11#section-6.5) del estándar.
 
 
 
 **[Referencias]**  
 • Sitio web del proyecto:  [https://securitytxt.org/](https://securitytxt.org/)  
-• Draft en IETF:  [https://tools.ietf.org/html/draft-foudil-securitytxt-10](https://tools.ietf.org/html/draft-foudil-securitytxt-10)
+• Draft en IETF:  [https://tools.ietf.org/html/draft-foudil-securitytxt-11](https://tools.ietf.org/html/draft-foudil-securitytxt-10)
