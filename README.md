@@ -26,7 +26,7 @@ El archivo *security.txt* contiene una serie de campos a completar, algunos son 
 **[Ejemplo]**
   
 ```
-Contact: mailto:cert@icic.gob.ar
+Contact: mailto:reportes@cert.ar
 Expires: Fri, 31 Dec 2021 23:00 -0300
 Encryption: https://github.com/cert-ar/PGP-Key/blob/main/CERT-AR-PGP-2021.asc
 Preferred-Languages: es, en
