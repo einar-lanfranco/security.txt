@@ -51,6 +51,9 @@ Cuando en uno de los campos se indica una URL, el enlace deber comenzar con *htt
 La presencia del archivo *security.txt* **no** debe ser considerada como un permiso para la ejecución de pruebas o análisis.
 Se sugiere revisar la correcta utilización del campo *Policy* y la divulgación de vulnerabilidades, puede leer más en el apartado [3.5.7](https://tools.ietf.org/html/draft-foudil-securitytxt-11#section-3.5.7); y en particular el apartado [6.5](https://tools.ietf.org/html/draft-foudil-securitytxt-11#section-6.5) del estándar.
 
+**[Ventajas ante otras propuestas]**
+
+Una ventaja importante del uso de este mecanismo ante alternativas como, por ejemplo, la presentación de formularios de contacto o de páginas especiales que indiquen como contactarse es que no es necesario modificar de forma alguna el sitio web objetivo. Al ser este mecanismo es complementario, que consiste sólo en incluir un txt, el esfuerzo necesario para implementar y mantener esta solución en cualquier sitio web resulta insignificante sin importar la complejidad o las tecnologías utilizadas en ellos.
 
 
 **[Referencias]**  
